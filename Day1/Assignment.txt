@@ -1,0 +1,28 @@
+1. Create a function which accepts a number as temperature in degrees Fahrenheit and returns the 
+temperature in Celsius
+2. Create a function which accepts a numeric variable(input)and outputs its coefficient of variation with 
+formula: (SD / mean) *100
+
+
+Create the vectors:
+(a) (1, 2, 3, . . . , 19, 20)
+(b) (20, 19, . . . , 2, 1)
+(c) (1, 2, 3, . . . , 19, 20, 19, 18, . . . , 2, 1)
+(d) (4, 6, 3) and assign it to the name tmp.
+For parts (e), (f) and (g) look at the help for the function rep.
+(e) (4, 6, 3, 4, 6, 3, . . . , 4, 6, 3) where there are 10 occurrences of 4.
+(f) (4, 6, 3, 4, 6, 3, . . . , 4, 6, 3, 4) where there are 11 occurrences of 4, 10 occurrences of 6 and 10 occurrences of 3.
+(g) (4, 4, . . . , 4, 6, 6, . . . , 6, 3, 3, . . . , 3) where there are 10 occurrences of 4, 20 occurrences of 6 and 30
+occurrences of 3.
+
+Type the following code, which assigns numbers to objects x and y.
+x <- 10
+y <- 20
+1. Calculate the product of x and y
+2. Store the result in a new object called z
+3. Inspect your workspace by typing ls(), and by clicking the Environment tab in Rstudio, and find
+the three objects you created.
+4. Make a vector of the objects x, y and z. Use this command,
+myvec <- c(x,y,z)
+5. Find the minimum, maximum, length, and variance of myvec.
+6.Remove the myvec object from your workspace.
